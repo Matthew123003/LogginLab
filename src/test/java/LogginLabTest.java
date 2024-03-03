@@ -31,4 +31,9 @@ public class LogginLabTest {
             }
         }
     }
+    @org.junit.Test
+    public void thresholdReached(){
+        LogginLab labTest = new LogginLab();
+        labTest.thresholdReached();
+    }
 }
